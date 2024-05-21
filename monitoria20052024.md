@@ -50,6 +50,22 @@ hdfs dfs -get /user/root/workshop1/prueba.txt /tmp/pruebaV2.txt
 rem visualizamos el archivo copiado
 ls /tmp
 
+rem copiamos haciendo uso del comando -copyToLocal
+hdfs dfs -copyToLocal /user/root/workshop1/prueba.txt /tmp/pruebaV3.txt
+rem visualizamos el archivo copiado al local
+ls /tmp
+
+rem necesitamos copiar 
+
+rem instalamos una libreria
+apt-get install vim -y
+
+vim
+rem pegar texto
+rem una vez pegado el texto escribimos :wq pacientes.txt
+
+
+
 
 
 

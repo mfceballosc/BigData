@@ -1,0 +1,27 @@
+hel es con con :
+docker run --rm -it --name hadoop -p 50070:50070 -p 8088:8088 -p 8888:8888 -v ${pwd}:/workspace jdvelasq/hadoop:2.10.1
+Oscar Leonel Sanchez Conde
+20:31
+echo
+Girleza Alvarez Gonzalez
+20:44
+hdfs dfs -ls /user/root/workshop1, con este comando si lo mostro
+Juan Jose Guerra Bermudez
+20:50
+perdon, se me fue
+Maria Victoria Valencia Arango
+21:05
+apt-get install vim -y
+Oscar Leonel Sanchez Conde
+21:07
+:q
+Maria Victoria Valencia Arango
+21:07
+:wq pacientes.txt
+Oscar Leonel Sanchez Conde
+21:07
+Para guardar y salir es :wq
+
+
+
+
