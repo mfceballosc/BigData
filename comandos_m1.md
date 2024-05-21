@@ -132,7 +132,9 @@ cut -d: -f1 empleados.txt
 
 awk -F: '$3~/^s/ {print $1}' empleados.txt
 
-
-
 ```
+     
+
+
+
 
